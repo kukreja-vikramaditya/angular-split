@@ -2,7 +2,7 @@
  * Public API Surface of angular-split
  */
 
-export { AngularSplitDefaultOptions, provideAngularSplitOptions } from './lib/angular-split-config.token'
+export { type AngularSplitDefaultOptions, provideAngularSplitOptions } from './lib/angular-split-config.token'
 export { SplitGutterDragHandleDirective } from './lib/gutter/split-gutter-drag-handle.directive'
 export { SplitGutterExcludeFromDragDirective } from './lib/gutter/split-gutter-exclude-from-drag.directive'
 export { SplitGutterDirective, SplitGutterTemplateContext } from './lib/gutter/split-gutter.directive'
